@@ -1,0 +1,33 @@
+		New
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
+		
+		Old
+		<script src = "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src = "bootstrap/js/bootstrap.js"></script>
+		
+Awesome way to create a dropdown menu with links: HTML below
+<div>
+    Select
+    <ul>
+        <li><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+    </ul>
+</div>
+
+Awesome way to create a dropdown menu with links: CSS below
+div { 
+    margin: 10px;
+    padding: 10px; 
+    border: 2px solid purple; 
+    width: 200px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+div > ul { display: none; }
+div:hover > ul {display: block; background: #f9f9f9; border-top: 1px solid purple;}
+div:hover > ul > li { padding: 5px; border-bottom: 1px solid #4f4f4f;}
+div:hover > ul > li:hover { background: white;}
+div:hover > ul > li:hover > a { color: red; }

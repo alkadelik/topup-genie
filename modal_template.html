@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bootstrap 101 Template</title>
+		<link href="images/favicon.ico" type="image/x-icon" rel="shortcut icon">
+		<!-- Bootstrap -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="bootstrap/css/modalstyles.css" rel = "stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+  		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+			<![endif]-->
+	<title>Topup Genie</title>
+	</head>
+	<body>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
+		
+					<form class="form-horizontal" role="form" action="#" method="POST">
+						<div class="continue">
+							<div class="form-group butt">
+								<a href="#continue" role="button" type="submit" class="btn btn-primary btn-lg" data-toggle="modal">Continue</a>
+							</div>
+						</div>
+					</form>
+
+
+<!-- anonymous-purchase modal -->
+		<div class="modal fade" id="" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>Enter your email address</h4>
+					</div><!-- end modal-header -->
+					<div class="modal-body">
+						<p>A valid email address is required to complete this transaction. Your receipt and information required for after sales support will be sent to this address.</p>
+						<hr><br>
+						<div class="form-container">
+							<form class="form-horizontal" role="form">
+								<div class="form-group">
+								    <div class="input-group">
+								      <div class="input-group-addon">@</div>
+								      <input class="form-control" type="email" placeholder="Enter email">
+								    </div><!-- end input-group -->
+								</div><!-- end form-group -->			  
+								<button type="button" class="btn btn-primary btn-block">PAY</button>
+							</form>
+						</div><!-- end form-container -->
+					</div><!-- end modal-body -->
+					<div class="modal-footer">
+						<button class="btn btn-primary" data-dismiss="modal" type="button">Close</button>
+					</div><!-- end modal-footer -->
+				</div><!-- end modal-content -->
+			</div><!-- end modal-dialog -->
+		</div><!-- end modal-id -->
+<!-- end anonymous-purchase modal -->
+<!-- sign-up modal -->
+		<div class="modal fade" id="" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>Sign up now - Thank you</h4>
+					</div><!-- end modal-header -->
+					<div class="modal-body">
+						<div class="form-container">
+							<div class="social-media">
+								<div class="signup-icon"><a href=""><img src="images/facebook_signup.png" width="616" height="124" alt="Facebook Signup"></a>
+								</div><!-- end signup-icon -->
+								<div class="signup-icon">
+									<a href=""><img src="images/google_signup.png" width="590" height="114" alt="Google Signup"></a>
+								</div><!-- end signup-icon -->
+							</div><!-- end social-media-signup -->
+							<div class="other-signup">
+								<p class="email-opt">Or<br><a href="#email-signup" data-toggle="modal" data-dismiss="modal">Sign up with Email</a></p>
+								<p class="signup-terms">By signing up, I agree to Topup Genie's <a href="">Terms of Service</a> and <a href="">Privacy Policy</a></p>
+							</div><!-- end other-signup -->
+						</div><!-- end form-container -->
+					</div><!-- end modal-body -->
+					<div class="modal-footer">
+						<div class="left">
+							<p align="center">Already have an account? <a href="">Log In</a>
+						</div><!-- end left -->
+						<div class="right">
+							<button class="btn btn-primary" data-dismiss="modal" type="button">Close</button>
+						</div><!-- end right -->
+					</div><!-- end modal-footer -->
+				</div><!-- end modal-content -->
+			</div><!-- end modal-dialog -->
+		</div><!-- end modal-id -->
+<!-- end sign-up modal -->
+<!-- email sign-up modal -->
+		<div class="modal signinbox fade" id="" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>Sign up now - Thank you</h4>
+					</div><!-- end modal-header -->
+					<div class="modal-body">
+						<div class="form-container">
+							<div class="social-media">
+								<div class="signup-icon"><a href=""><img src="images/facebook_signup.png" width="616" height="124" alt="Facebook Signup"></a>
+								</div><!-- end signup-icon -->
+								<div class="signup-icon">
+									<a href=""><img src="images/google_signup.png" width="590" height="114" alt="Google Signup"></a>
+								</div><!-- end signup-icon -->
+							</div><!-- end social-media-signup -->
+							<div class="other-signup">
+								<p class="email-opt">Or<br>
+									<form class="form-horizontal" role="form" action="#" method="POST">
+										<div class="form-group">
+											<label for="full name" class="sr-only">Full name</label>
+											<div class="form-control">
+												<input type="text" name="full name" required="" class="form-control" placeholder="Full name" >
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="email" class="sr-only">Email address</label>
+										    <div class="input-group">
+										    	<input class="form-control" type="email" name="email" placeholder="Email address">
+										    	<div class="input-group-addon">@</div>
+										    </div><!-- end input-group -->
+										</div><!-- end form-group -->
+										<div class="form-group">
+											<label for="phone number" class="sr-only">Phone number</label>
+											<div class="form-col">
+												<input type="text" required="" pattern="[0-9]{11}" class="form-control" name="phone number"  minlength="11" maxlength="11" placeholder="Phone number" >
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="network" class="sr-only">Network</label>
+											<div class="form-col">
+												<select class="form-control" id="network" name="network" placeholder="Select Network" required>
+													<option value="" disabled selected>Select Network</option>
+										  		  	<option value="6">Airtel</option>
+										  		  	<option value="#">Airtel (Direct Data)</option><!-- if airtel data, automatic dropdown -->
+										  		  	<option value="7">Etisalat</option>
+										  		  	<option value="8">Glo</option>
+										  		  	<option value="9">MTN</option>
+										  		  	<option value="4">Visafone</option>
+												</select>
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="password" class="sr-only">Password</label>
+											<div class="form-control">
+												<input class="form-control" type="password" required="" name="password"  minlength="4" placeholder="Password" >
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="full name" class="sr-only">Referral Code</label>
+										    <div class="input-group">
+										      <input class="form-control" type="text" placeholder="Referral code">
+										      <div class="input-group-addon">?</div>
+										    </div>
+										</div>
+										<div class="form-group">
+											<a href="#continue" role="button" type="submit" class="btn btn-primary btn-block" data-toggle="modal">Sign Up</a>
+										</div>
+									</form>
+								<p class="signup-terms">By signing up, I agree to Topup Genie's <a href="">Terms of Service</a> and <a href="">Privacy Policy</a></p>
+							</div><!-- end other-signup -->
+						</div><!-- end form-container -->
+					</div><!-- end modal-body -->
+					<div class="modal-footer">
+						<div class="left">
+							<p align="center">Already have an account? <a href="">Log In</a>
+						</div><!-- end left -->
+						<div class="right">
+							<button class="btn btn-primary" data-dismiss="modal" type="button">Close</button>
+						</div><!-- end right -->
+					</div><!-- end modal-footer -->
+				</div><!-- end modal-content -->
+			</div><!-- end modal-dialog -->
+		</div><!-- end modal-id -->
+<!-- end email sign-up modal -->
+<!-- login modal -->
+		<div class="modal signinbox fade" id="" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>Sign up now - Thank you</h4>
+					</div><!-- end modal-header -->
+					<div class="modal-body">
+						<div class="form-container">
+							<div class="social-media">
+								<div class="signup-icon"><a href=""><img src="images/facebook_signup.png" width="616" height="124" alt="Facebook Signup"></a>
+								</div><!-- end signup-icon -->
+								<div class="signup-icon">
+									<a href=""><img src="images/google_signup.png" width="590" height="114" alt="Google Signup"></a>
+								</div><!-- end signup-icon -->
+							</div><!-- end social-media-signup -->
+							<div class="other-signup">
+								<p class="email-opt">Or<br>
+									<form class="form-horizontal" role="form" action="#" method="POST">
+										
+										<div class="form-group">
+											<label for="full name" class="sr-only">Email address</label>
+										    <div class="input-group">
+										    	<input class="form-control" type="email" placeholder="Email or primary number">
+										    </div><!-- end input-group -->
+										</div><!-- end form-group -->
+										<div class="form-group">
+											<label for="password" class="sr-only">Password</label>
+										    <div class="input-group">
+										      <input class="form-control" type="password" placeholder="Password">
+										    </div>
+										</div>
+										<div class="form-group">
+											<a href="#continue" role="button" type="submit" class="btn btn-primary btn-block" data-toggle="modal">Log In</a>
+										</div>
+									</form>
+									<a href=""><p>Forgot Password?</p></a>
+								<p class="signup-terms">By signing up, I agree to Topup Genie's <a href="">Terms of Service</a> and <a href="">Privacy Policy</a></p>
+							</div><!-- end other-signup -->
+						</div><!-- end form-container -->
+					</div><!-- end modal-body -->
+					<div class="modal-footer">
+						<div class="left">
+							<p align="center">Already have an account? <a href="">Log In</a>
+						</div><!-- end left -->
+						<div class="right">
+							<button class="btn btn-primary" data-dismiss="modal" type="button">Close</button>
+						</div><!-- end right -->
+					</div><!-- end modal-footer -->
+				</div><!-- end modal-content -->
+			</div><!-- end modal-dialog -->
+		</div><!-- end modal-id -->
+<!-- end login modal -->
+<!-- contact us -->		
+		<div class="modal fade" id="continue" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>Contact Topup Genie</h4>
+					</div><!-- end modal-header -->
+					<div class="modal-body">
+						<form class="form-horizontal" role="form">
+							<div class="form-group">
+						    	<label class="col-md-2 control-label" for="Full Name">Full Name</label>
+						    	<div class="col-md-10">
+						    		<input class="form-control" type="text" id="" placeholder="Full Name" required="">
+						    	</div>
+							</div>
+							<div class="form-group">
+						    	<label class="col-md-2 control-label" for="Email">Email</label>
+						    	<div class="col-md-10">
+						    		<input class="form-control" type="email" id="" placeholder="Email" required="">
+						    	</div>
+							</div>
+							<div class="form-group">
+						    	<label class="col-md-2 control-label" for="subject">Subject</label>
+						    	<div class="col-md-10">
+						    		<input class="form-control" type="text" id="" placeholder="Subject" required="">
+						    	</div>
+							</div>
+							<div class="form-group">
+								<label class="col-md-2 contol-label" for="message">Message</label>
+								<div class="col-md-10">
+									<textarea class="form-control" id="inputmessage" name="inputmessage" placeholder="Messages sent between 9am and 4pm on week days usually get a reply within one hour." rows="5"></textarea>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-md-2 contol-label" for="checkbox"></label>
+								<div class="checkbox col-md-10">
+							    	<input type="checkbox" value="">Create a free account with my details
+								</div>
+							</div>								  
+							      <img id="captcha" src="library/vender/securimage/securimage_show.php" alt="CAPTCHA Image" />
+							      <a href="#" onclick="document.getElementById('captcha').src = 'library/vender/securimage/securimage_show.php?' + Math.random(); return false" class="btn btn-info btn-sm">Show a Different Image</a><br/>
+							      <div class="form-group" style="margin-top: 10px;">
+							        <input type="text" class="form-control" name="captcha_code" id="captcha_code" placeholder="For security, please enter the code displayed in the box." />
+							        <span class="help-block" style="display: none;">Please enter the code displayed within the image.</span>
+							      </div>
+							<button class="btn btn-success pull-right" type="submit">Send</button>
+						</form>
+					</div><!-- end modal-body -->
+					Use an existing account to contact us
+					spam check box
+					
+					<div class="modal-footer">
+						<button class="btn btn-primary" data-dismiss="modal" type="button">Close</button>
+					</div><!-- end modal-footer -->
+				</div><!-- end modal-content -->
+			</div><!-- end modal-dialog -->
+		</div><!-- end modal-id -->
+<!-- end contact us -->
+<!-- modal template -->		
+		<div class="modal fade" id="" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>Modal title</h4>
+					</div><!-- end modal-header -->
+					<div class="modal-body">
+					</div><!-- end modal-body -->
+					<div class="modal-footer">
+						<button class="btn btn-primary" data-dismiss="modal" type="button">Close</button>
+					</div><!-- end modal-footer -->
+				</div><!-- end modal-content -->
+			</div><!-- end modal-dialog -->
+		</div><!-- end modal-id -->
+<!-- end modal template -->
+
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	    <script src="bootstrap/js/custom.js"></script>
+	</body>
+</html>

@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('../../images/Marina-at-Dusk.jpg');
+	background-size: cover;
+}
+
+/* For inexx 2*/
+.navigate ul {
+	list-style-type: none;
+}
+
+.navigate li {
+	display: inline;
+}
+
+.navigate {
+	float: right;
+}
+
+/* End of index 2*/
+
+
+.navbar {
+	margin: 0;
+	background: transparent;
+}
+
+.navbar-static-top {
+	height: 50px;
+	padding: 0 20px;
+	margin-top: 5px;
+}
+
+.img {
+	position: static;
+}
+
+.img img {
+	height: 60px ;
+	width: auto;
+	position: relative;
+	top: -20px;
+}
+
+.form-group .custom{
+	width: 250px;
+}
+
+.jumbotron {
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 0;
+	background: transparent;
+}
+
+.container-fluid h1 {
+	font-size: 45px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.container-fluid {
+/*	margin-left: 10px;
+*/	width: 95%;
+}
+	
+fieldset {
+	padding: 15px;
+    width: 350px;
+    background: #fff;
+	border-radius: 6px;
+    border:1px solid grey;
+}
+
+.form-col {
+	width: 280px;
+	margin: 0 auto;
+}
+
+.continue .form-group {
+	float: left;
+	margin: 0 auto;
+}
+
+.continue .checkbox {
+	width: 150px;
+	margin-left: 40px;
+	font-size: 12px;
+}
+
+.continue .butt {
+/*	margin-left: 20px;
+*/}
+
+.continue button {
+	width: 108px;
+}
+
+.more {
+	margin: 10px 75px;
+}
+
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 14px;
+	padding: 20px;
+}
+
+footer .container-fluid {
+	width: 90%;
+}
+
+.col-sm-6 {
+	height: 80px;
+}
+
+footer .navbar {
+    border-radius: 0 !important;
+	height: auto;
+}
+
+footer .row {
+/*	margin: 0 auto;
+*/}
+
+footer ul {
+	list-style-type: none;
+}
+
+footer img {
+	height: 35px;
+	width: auto;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+footer .icons li {
+	display: inline;
+}
+
+.icons {
+	border-top: 1px solid grey;
+	margin: 0 auto;
+	padding-top: 30px;
+	width: 90%;
+	text-align: center;
+}
+
+.copyright {
+	margin: 0 auto;
+	padding-top: 10px;
+	width: 90%;
+	text-align: center;
+}

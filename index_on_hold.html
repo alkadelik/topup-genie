@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+		<title>Topup Genie</title>
+		<link href = "bootstrap/css/bootstrap.min.css" rel = "stylesheet">
+		<link href = "bootstrap/css/styles.css" rel = "stylesheet">
+		<link href = "main.css" rel = "stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
+		<header>
+			<div class="navbar navbar-default navbar-static-top">
+				<div class="container">
+					<a href="#" class = "navbar-brand">Topup Genie</a>
+					<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+						<span class = "icon-bar"></span>
+						<span class = "icon-bar"></span>
+						<span class = "icon-bar"></span>
+					</button>
+					<!-- <div class="logo"><img src="images/Topup Genie.png" width="200" height="121" alt="Topup Genie Text Logo Copy Medium Copy">
+					</div> -->
+					<div class="collapse navbar-collapse navHeaderCollapse">
+						<ul class = "nav navbar-nav navbar-right">
+							<li class = "active"><a href="#">Sign Up</a></li>
+							<li><a href="#">Help</a></li>
+						</ul>
+						<!-- <form>
+							<input type="text" placeholder="Email or Primary number">
+							<input type="password" name="password" placeholder="Password">
+							<input type="submit" value="Log In">
+						</form> -->
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="main">
+			<h1>Buy airtime securely</h1>
+			<div class="quick_recharge">
+					<p>Quick recharge <span>No log in required</span></p>
+					<form action="#" method="POST">
+				<fieldset>
+					<ul>
+						<li><input title="Enter phone number" type="text" name="phone_number" pattern="[0-9]" minlength="11" maxlength="11" placeholder="0" required autofocus></li>
+						<li><select id="network" name="network" placeholder="Select Network" required>
+							  <option value="" disabled selected>Select Network</option>
+							  <option value="6">Airtel</option>
+							  <option value="#">Airtel (Direct Data)</option><!-- if airtel data, automatic dropdown -->
+							  <option value="7">Etisalat</option>
+							  <option value="8">Glo</option>
+							  <option value="9">MTN</option>
+							  <option value="4">Visafone</option>
+							</select></li>
+							<li><input type="text" pattern="[0-9]" minlength="11" placeholder="Enter amount" required></li>
+							<li><select name="payment_option" placeholder="Payment option" required>
+							    <option value="" disabled selected>Select Payment Option</option>
+								<option value="TuG Balance">TuG Balance</option>
+								<option value="MasterCard">MasterCard</option>
+								<option value="VISA">VISA</option>
+								<option value="Verve">Verve</option>
+							</select></li>
+							<li><input type="submit" value="Continue"></li>
+					</ul>
+				</fieldset>
+				</form>
+			</div>
+			<a href="#"><div class="more_topups">Top up multiple phones</div></a>
+		</div>
+		<footer>
+			<div class="footer">
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">FAQs</a></li>
+					<li><a href="#">blog</a></li>
+					<li><a href="#">mobile app</a></li>
+				</ul>
+			</div>
+			<div class="social_media">
+				<ul>
+					<li><a href="#">facebook</a></li>
+					<li><a href="#">twitter</a></li>
+					<li><a href="#">youtube</a></li>
+				</ul>
+			</div>
+		</footer>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	    <script src="bootstrap/js/custom.js"></script>
+	</body>
+</html>

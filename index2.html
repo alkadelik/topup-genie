@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bootstrap 101 Template</title>
+		<link href="images/favicon.ico" type="image/x-icon" rel="shortcut icon">
+		<!-- Bootstrap -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="bootstrap/css/styles2.css" rel = "stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+  		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+			<![endif]-->
+	<title>Topup Genie</title>
+	</head>
+	<body>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
+
+			<div class="img">
+	        	<a href="http://www.topupgenie.com" class="navbar-brand"><img src="images/tug.png" width="200" height="121" alt="Tug">
+				<!-- <img alt="Brand" src="images/tug.png" width="200" height="121" alt="Topup Genie"> -->
+				</a>
+			</div>
+		    <!-- Collection of nav links, forms, and other content for toggling -->
+		    <div class="navigate">
+		        <ul>
+		            <li><a href="#signup" data-toggle="modal">Sign Up</a></li>
+		            <li><a href="#">Log In</a></li>
+		        </ul>
+		    </div>
+		<div class="jumbotron">
+			<div class="container-fluid">
+				<h1>buy airtime securely</h1>
+				<div class="form-canvas-container">
+					<div class="form-canvas">
+					</div>
+					<form class="form-horizontal" role="form" action="#" method="POST">
+						<h3>Quick recharge <a href="" data-original-title="Unverified users can only purchase ₦200 every 10 minutes" rel="tooltip"><small>No log in required</small></a></h3>
+						<div class="form-group">
+							<label for="phone-number" class="sr-only">Phone number</label>
+							<div class="form-col">
+								<input type="text" required="" pattern="[0-9]{11}" class="form-control input-lg" name="phone_number"  minlength="11" maxlength="11" placeholder="Phone number" >
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="network" class="sr-only">Network</label>
+							<div class="form-col">
+								<select class="form-control input-lg" id="network" name="network" placeholder="Select Network" required>
+									<option value="" disabled selected>Select Network</option>
+						  		  	<option value="6">Airtel</option>
+						  		  	<option value="#">Airtel (Direct Data)</option><!-- if airtel data, automatic dropdown -->
+						  		  	<option value="7">Etisalat</option>
+						  		  	<option value="8">Glo</option>
+						  		  	<option value="9">MTN</option>
+						  		  	<option value="4">Visafone</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="amount" class="sr-only">Amount</label>
+							<div class="form-col">
+								<div class="input-group">
+									<div class="input-group-addon">₦</div>
+									
+									<input type="text" required="" pattern="[0-9]{3,5}" class="form-control input-lg" id="amount"  placeholder="Enter amount">
+									<div class="input-group-addon">.00</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="payment-option" class="sr-only">Payment option</label>
+							<div class="form-col">
+							<select class="form-control input-lg" id="payment_option" placeholder="Payment option" required>
+					    		<option value="" disabled selected>Select Payment Option</option>
+								<option value="TuG Balance">TuG Balance</option>
+								<option value="MasterCard">MasterCard</option>
+								<option value="VISA">VISA</option>
+								<option value="Verve">Verve</option>
+								<option value="Reward">Referral reward balance</option>
+							</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="referral-code" class="sr-only">Referral Code</label>
+							<div class="form-col">
+							<input class="form-control input-lg" id="referral-code" type="text" placeholder="Referral code">
+							</div>
+						</div>
+						<div class="continue">
+							<div class="form-group">
+								<div class="tandc">
+										<p>By clicking Continue, I agree to Topup Genie's <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+								</div>
+							</div>
+							<div class="form-group butt">
+								<a href="#continue" role="button" type="submit" class="btn btn-primary btn-lg" data-toggle="modal">Continue</a>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="form-group more">
+					<button type="submit" class="btn btn-lg btn-primary">Top up more phones</button>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-6">
+						<ul>
+							<li><a href="">About Us</a></li>
+							<li><a href="">FAQs and Help</a></li>
+							<li><a href="#contact" data-toggle="modal">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<ul>
+							<li><a href="">Security</a></li>
+							<li><a href="">Terms of Service</a></li>
+							<li><a href="">Privacy Policy</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="icons">
+					<ul>
+						<li><a href="http://www.facebook.com/topupgenie" target="_blank"><img src="images/Facebook_icon.png" width="256" height="256" alt="Facebook Icon"> </a></li>
+						<li><a href="http://www.twitter.com/topupgenie" target="_blank"><img src="images/twitter_icon.gif" width="256" height="256" alt="Twitter Icon"></a></li>
+						<li><a href="#" target="_blank"><img src="images/youtube_icon.png" width="256" height="256" alt="Youtube Icon"></a></li>
+						<li><a href="#" target="_blank"><img src="images/blog_icon.png" width="386" height="386" alt="Blog Icon"></a></li>
+						<li><a href="#" target="_blank"><img src="images/blackberry_world.png" width="600" height="173" alt="Blackberry World"></a></li>
+						<li><a href="#" target="_blank"><img src="images/googleplay-app-store.png" width="600" height="196" alt="Googleplay App Store"></a></li>
+					</ul>
+				</div>
+			    <div class="copyright" id="copyright" class="row-space-top-2">
+			    	<a href="http://www.ithenalogic.com" target="_blank">© iThena Logic Ltd.</a>
+			    </div>
+			</div>
+		</footer>
+<!-- anonymous-purchase modal -->
+		<div class="modal fade" id="continue" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>Enter your email address</h4>
+					</div><!-- end modal-header -->
+					<div class="modal-body">
+						<p>A valid email address is required to complete this transaction. You receipt and information required for after sales support will be sent to this address.</p>
+						<hr>
+						<form class="form-horizontal" role="form">
+							<div class="form-group">
+							    <div class="input-group">
+							      <div class="input-group-addon">@</div>
+							      <input class="form-control" type="email" placeholder="Enter email">
+							    </div><!-- end input-group -->
+							  </div><!-- end form-group -->			  
+							  <button type="button" class="btn btn-primary btn-block">PAY</button>
+						</form>
+					</div><!-- end modal-body -->
+					<div class="modal-footer">
+						<a class="btn btn-primary" data-dismiss="modal">Close</a>
+					</div><!-- end modal-footer -->
+				</div><!-- end modal-content -->
+			</div><!-- end modal-dialog -->
+		</div><!-- end modal-id -->
+<!-- end anonymous-purchase modal -->
+		
+<!-- Sign up modal -->
+		<div class="modal signinbox fade" id="signup" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content signup">
+					<div class="social-media-signup">
+						<div class="signup fb">
+							<a href=""><img src="images/signup-facebook.png" width="354" height="69" alt="Signup Facebook"></a>
+						</div>
+						<div class="signup gplus">
+							<a href=""><img src="images/google_sign_up.png" width="354" height="77" alt="Google Sign Up"></a>
+						</div>
+					</div>
+					<div class="other-signup">
+						<p class="email-opt">Or<br><a href="#email-signup" data-toggle="modal" data-dismiss="modal">Sign up with Email / Phone Number</a></p>
+						<p class="signup-terms">By signing up, I agree to Topup Genie's <a href="">Terms of Service</a> and <a href="">Privacy Policy</a></p>
+						<hr>
+						<br>
+						<p class="email-opt">Already have an account? <a href="">Log In</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- End of sign up modal -->
+<!-- Manual sign up modal -->
+		<div class="modal signinbox fade" id="signup" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content signup">
+					<div class="social-media-signup">
+						<div class="signup fb">
+							<a href=""><img src="images/signup-facebook.png" width="354" height="69" alt="Signup Facebook"></a>
+						</div>
+						<div class="signup gplus">
+							<a href=""><img src="images/google_sign_up.png" width="354" height="77" alt="Google Sign Up"></a>
+						</div>
+					</div>
+					<div class="other-signup">
+						<p>Or</p>
+						<form class="modal form-horizontal" role="form" action="#" method="POST">
+							<div class="form-group">
+								<label for="first_name" class="sr-only">First name</label>
+								<div class="form-col">
+									<input class="form-control" id="first-name" type="text" placeholder="First name " required autofocus>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="first_name" class="sr-only">Last name</label>
+								<div class="form-col">
+									<input class="form-control" id="last-name" type="text" placeholder="Last name " required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="Email" class="sr-only">Email</label>
+								<div class="form-col">
+									<input class="form-control" id="Email" type="text" placeholder="Email " required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="phone-number" class="sr-only">Phone number</label>
+								<div class="form-col">
+									<input class="form-control" id="phone-number" type="text" name="phone_number" pattern="[0-9]" minlength="11" maxlength="11" placeholder="Phone number" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="network" class="sr-only">Network</label>
+								<div class="form-col">
+									<select class="form-control" id="network" name="network" placeholder="Select Network" required>
+										<option value="" disabled selected>Select Network</option>
+							  		  	<option value="6">Airtel</option>
+							  		  	<option value="#">Airtel (Direct Data)</option><!-- if airtel data, automatic dropdown -->
+							  		  	<option value="7">Etisalat</option>
+							  		  	<option value="8">Glo</option>
+							  		  	<option value="9">MTN</option>
+							  		  	<option value="4">Visafone</option>
+									</select>
+								</div>
+							</div>
+							<div class="continue">
+								<div class="form-group">
+									<div class="checkbox">
+											<input type="checkbox">I accept Topup Genie's <a href="#">Terms of Service</a>
+									</div>
+								</div>
+								<div class="form-group butt">
+									<button type="submit" class="btn btn-primary btn-lg">Continue</button>
+								</div>
+							</div>
+						</form>			
+						<p class="signup-terms">By signing up, I agree to Topup Genie's <a href="">Terms of Service</a> and <a href="">Privacy Policy</a></p>
+						<hr>
+						<br>
+						<p class="email-opt">Already have an account? <a href="">Log In</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- End of manual sign up modal -->
+<!-- Contact us modal -->
+		<div class="modal fade" id="contact" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4>Contact Topup Genie</h4>
+					</div>
+					<div class="modal-body">
+						<p>About us form here</p>
+						<a class="btn btn-default">Submit</a>
+					</div>
+					<div class="modal-footer">
+						<a class="btn btn-primary" data-dismiss="modal">Close</a>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- End of contact us modal -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	    <script src="bootstrap/js/custom.js"></script>
+	</body>
+</html>
